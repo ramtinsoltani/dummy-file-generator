@@ -1,0 +1,33 @@
+{
+  "name": "dummy-file-generator",
+  "version": "1.0.0",
+  "description": "Generates dummy text files of the specified size for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramtinsoltani/dummy-file-generator.git"
+  },
+  "keywords": [
+    "dummy",
+    "file",
+    "generator",
+    "test",
+    "testing",
+    "size"
+  ],
+  "author": "Ramtin Soltani <ramtinsoltani93@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramtinsoltani/dummy-file-generator/issues"
+  },
+  "homepage": "https://github.com/ramtinsoltani/dummy-file-generator#readme",
+  "dependencies": {
+    "commander": "^2.20.0"
+  },
+  "bin": {
+    "dummy": "./index.js"
+  }
+}
