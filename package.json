@@ -28,6 +28,6 @@
     "commander": "^2.20.0"
   },
   "bin": {
-    "dummy": "./index.js"
+    "dummy": "./program.js"
   }
 }
