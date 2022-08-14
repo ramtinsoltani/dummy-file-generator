@@ -8,7 +8,7 @@ A simple dummy file generator for testing.
 npm install dummy-file-generator
 ```
 
-# Usage
+# Usage (CLI)
 
 ```
 dummy <filename> <size>
@@ -21,4 +21,21 @@ dummy <filename> <size>
 
 ```
 dummy test.txt 256kb
+```
+
+
+# Usage (Lib)
+
+```
+const { generateDummyContent } = require('dummy-file-generator');
+```
+
+- **size** The size in bytes or with the following suffix: `kb`, `mb`, `gb`
+
+## Example
+
+```
+const uploadStream = await generateDummyContent('256kb');
+
+const s3.upload({ Bucket, Key, Body: uploadStream }).promise();
 ```
